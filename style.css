@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+body {
+    background-color:  rgb(212, 177, 252);
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(198, 128, 255);
+}
+h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(177, 83, 253);
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slider {
+    position: relative;
+    padding: 0px 60px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    margin: -25px 0px 0px 0px;
+    z-index: 10;
+    font-size: 0;
+    width: 64px;
+    height: 64px;
+    border: 0px;
+}
+
+.slider .slick-arrow:focus {
+    outline: 0;
+}
+
+.slider .slick-arrow:hover {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+
+.slider .slick-arrow.slick-next {
+    right: 0;
+    background: url('17.png') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 0;
+    background: url('18.png') 0 0 / 100% no-repeat;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0px 7px;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: rgb(219, 209, 188);
+    border: 2px solid rgb(87, 98, 255);
+}
+
+.slider .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 15px;
+    background-color: rgb(86, 97, 255);
+    border-radius: 50%;
+}
+
+.slider .slick-dots li button:focus {
+    outline: 0;
+}
+
+.slider .slick-slide:focus {
+    outline: 0;
+}
